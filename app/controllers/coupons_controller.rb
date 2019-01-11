@@ -18,11 +18,5 @@ class CouponsController < ApplicationController
       @coupon.save
       redirect_to coupons_path(@coupon)
   end 
-  
-   t.string :coupon_code
-      t.string :store 
-
-
-
 
 end 
