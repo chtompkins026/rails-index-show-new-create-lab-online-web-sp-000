@@ -2,8 +2,8 @@
 
 <h1> Coupon Form </h1>
 <%= form_tag coupons_path do %>
-  <label>Student First Name:</label><br>
-  <%= text_field_tag :'first_name' %><br>
+  <label> Coupon Code:</label><br>
+  <%= text_field_tag :'coupon[coupon_code]' %><br>
  
   <label>Student Last Name:</label><br>
   <%= text_area_tag :'last_name' %><br>
